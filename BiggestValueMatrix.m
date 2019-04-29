@@ -4,7 +4,7 @@
 % Date : 2019-04-29
 %
 
-function [value, row_max, column_max] = Biggest(Matrix)
+function [maximum, row_max, column_max] = Biggest(Matrix)
 	maximum=Matrix(1,1);
 	[rows,columns] = size(ndata);
 	for i=1:rows
