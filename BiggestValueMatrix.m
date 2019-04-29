@@ -15,7 +15,6 @@ function [maximum, row_max, column_max] = Biggest(Matrix)
 		end
 	end
 	[row_max column_max] = find(A == maximum);
-	return
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Matrix=[99 67 65;
